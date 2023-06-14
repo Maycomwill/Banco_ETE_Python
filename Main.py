@@ -53,7 +53,6 @@ while testeLogico:
 
             if depositoInicial == 1:
                 saldoCc = int(input("Digite o valor do depósito: R$ "))
-
                 print("Seu saldo atual é:", "\nConta corrente: R${}\tConta poupança: R${}".format(saldoCc, saldoCp))
                 sleep(2)
             else:
